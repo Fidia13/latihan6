@@ -1,0 +1,132 @@
+/* CSS untuk header 1 */
+header {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+/* CSS untuk latar belakang body */
+body {
+    background: linear-gradient(to bottom, #afc0d3, #bd3d3d); /* Gradient biru */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://yurayunita.com/wp-content/uploads/2022/06/20210131_Yura-Profile-1145-small.jpg);
+    background-size: 10%; 
+    background-attachment: fixed;
+}
+
+/* CSS untuk profil */
+.outline {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    text-align: justify;
+}
+
+.outline h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* CSS untuk list */
+.list {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: 'Yuji Hentaigana Akari', cursive; /* Mengubah font */
+}
+
+.list h2 {
+    font-size: 24px;
+    text-align: center;
+}
+ul {
+    list-style: square;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+li satu {
+    cursor: help;
+}
+
+/* CSS untuk tautan dalam list */
+ul li a {
+    text-decoration: none;
+    color: #bd3d3d;
+    font-weight: bold; /* Teks lebih tebal */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CSS untuk karier */
+.karier {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    text-align: justify;
+}
+.karier h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+/* CSS untuk kotak*/
+.box model {
+    border: 2px solid black;      
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+/* CSS untuk tabel (Album) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center; /* Menengahkan isi tabel */
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+table thead {
+    background-color: #bd3d3d;
+    color: black;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.footer {
+    background-color: gray;
+    padding-bottom: 4%;
+    text-align: center;
+    color: rgb(83, 46, 46);
+    padding: 3px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    text-align: center;
+}
